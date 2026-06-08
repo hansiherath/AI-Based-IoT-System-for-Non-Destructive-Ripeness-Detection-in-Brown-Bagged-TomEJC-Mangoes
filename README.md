@@ -1,6 +1,4 @@
-# 🥭 QualityQuest
-
-## AI-Based IoT System for Non-Destructive Ripeness Detection in Brown-Bagged TomEJC Mangoes
+## 🥭 AI-Based IoT System for Non-Destructive Ripeness Detection in Brown-Bagged TomEJC Mangoes
 
 QualityQuest is an AI-powered IoT system designed to assess the internal quality of brown-bagged TomEJC mangoes without causing physical damage to the fruit.
 
@@ -78,7 +76,7 @@ Recommendations include:
 
 # 🏗 System Work Flow
 
-![QualityQuest Workflow](Images/system_workflow.jpg)
+![QualityQuest Workflow](Images/system workflow.jpg)
 
 ---
 <p align="center">
