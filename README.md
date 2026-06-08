@@ -46,9 +46,9 @@ using multi-sensor data and machine learning.
 
 ---
 
-### Sugar Content Estimation
+### Sugar Content and Acidity Estimation
 
-Measures internal sugar content (Brix value) without cutting the fruit.
+Measures internal sugar content (Brix value) and Acidity without cutting the fruit.
 
 ---
 
@@ -62,6 +62,7 @@ Predicts when the mango should be consumed for optimal quality.
 
 Provides personalized recommendations based on:
 
+- Mango Ripeness
 - Sugar Content
 - Mango Weight
 - User Diabetes Status
@@ -71,12 +72,13 @@ Recommendations include:
 - Safe
 - Limit Consumption
 - Not Recommended
+with Porsion Size.
 
 ---
 
 # 🏗 System Work Flow
 
-![QualityQuest Workflow](Images/system workflow.jpg)
+![System Work Flow](Images/system workflow.jpg)
 
 ---
 <p align="center">
@@ -177,7 +179,6 @@ Built using Flutter.
 - BME688
 - MPU6050 with Servo Motor
 - HX711 + Load cell
-
 
 ### Development Tools
 
