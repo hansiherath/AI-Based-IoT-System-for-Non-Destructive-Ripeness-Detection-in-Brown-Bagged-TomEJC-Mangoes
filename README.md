@@ -76,46 +76,15 @@ Recommendations include:
 
 ---
 
-### Mobile Application
+# 🏗 System Work Flow
 
-Flutter-based mobile application allowing users to:
-
-- Register/Login
-- Check Mango Ripeness
-- View Sugar Content
-- Predict Time to Consume
-- Receive Health Recommendations
-- Manage User Profile
+![QualityQuest Workflow](Images/system_workflow.jpg)
 
 ---
+<p align="center">
+  <img src="Images/Architecture/system_workflow.png" width="900">
+</p>
 
-# 🏗 System Architecture
-
-```text
-Mango
-   │
-   ▼
-Sensor System
-   │
-   ├── AS7263 (NIR Sensor)
-   ├── BME688 (E-Nose)
-   ├── MPU6050
-   └── Load Cell + HX711
-   │
-   ▼
-ESP32
-   │
-   ▼
-Cloud / Backend
-   │
-   ▼
-Machine Learning Model
-   │
-   ▼
-Flutter Mobile Application
-```
-
----
 
 # 🔬 Hardware Components
 
@@ -176,64 +145,31 @@ Performance Metrics:
 
 Built using Flutter.
 
-Main Screens:
-
-- Welcome Screen
-- Login
-- Sign Up
-- Home Screen
-- Health Recommendation Screen
-- User Profile
-- Admin Dashboard
-
----
-
-# 📂 Repository Structure
-
-```text
-QualityQuest/
-│
-├── Mobile_App/
-│   ├── lib/
-│   ├── assets/
-│   └── pubspec.yaml
-│
-├── Backend/
-│   ├── notebooks/
-│   ├── datasets/
-│   ├── trained_models/
-│   └── api/
-│
-├── Hardware/
-│   ├── SensorSystem.ino
-│   └── Circuit_Diagrams/
-│
-├── Images/
-│
-├── Documentation/
-│   ├── SRS.pdf
-│   ├── SDS.pdf
-│   └── Research_Papers/
-│
-└── README.md
-```
+![Mobile Application](Images/MobileApp_Screens.png)
 
 ---
 
 # 🛠 Technologies Used
 
-### Mobile Development
-
+### Mobile Application
 - Flutter
 - Dart
 
-### Backend & AI
-
+### Backend
 - Python
+- REST API
+
+### Machine Learning
 - Scikit-learn
 - TensorFlow
 - Pandas
 - NumPy
+
+### Database
+- MySQL
+
+### Cloud & Deployment
+- AWS
 
 ### Hardware & IoT
 
@@ -241,59 +177,17 @@ QualityQuest/
 - Arduino IDE
 - AS7263
 - BME688
-- MPU6050
-- HX711
+- MPU6050 with Servo Motor
+- HX711 + Load cell
 
-### Database & Cloud
-
-- Firebase
-- MySQL
 
 ### Development Tools
 
 - VS Code
+- Postman
 - Figma
 - Draw.io
 - GitHub
-- Postman
-
----
-
-# 👨‍💻 Development Team
-
-Faculty of Applied Sciences  
-Rajarata University of Sri Lanka
-
-2020/2021 Batch
-
-### Team Members
-
-- H.M.A.H. Herath
-- Y.M.W.N.S. Samaranayaka
-- L.S.T. Liyanagedara
-- W.M.W.G.C. Akarshani
-- C.C. Leeniyagoda
-
-### Supervisor
-
-Mrs. A.K.N.L. Aththanagoda
-
-Department of Computing
-
----
-
-# 📚 Research Contribution
-
-This project contributes to non-destructive fruit quality assessment by integrating:
-
-- Near Infrared Spectroscopy
-- Electronic Nose Technology
-- Motion-Based Firmness Measurement
-- Multi-Sensor Data Fusion
-- Machine Learning Classification
-- Health-Aware Recommendation Systems
-
-for brown-bagged TomEJC mangoes.
 
 ---
 
