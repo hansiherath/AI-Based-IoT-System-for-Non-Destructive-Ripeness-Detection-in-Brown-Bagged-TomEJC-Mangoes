@@ -78,13 +78,11 @@ with Porsion Size.
 
 # 🏗 System Work Flow
 
-![System Work Flow](Images/system workflow.jpg)
-
----
 <p align="center">
-  <img src="Images/Architecture/system_workflow.png" width="900">
+  <img src="Images/system workflow.jpg" width="900">
 </p>
 
+---
 
 # 🔬 Hardware Components
 
